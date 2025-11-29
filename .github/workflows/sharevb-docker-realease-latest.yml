@@ -6,7 +6,7 @@ env:
 on:
   push:
     branches:
-      - chore/all-my-stuffs
+      - dev
 
 jobs:
   ci:
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-node@v6.4.0
         with:
           node-version: 24
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm i --ignore-scripts
@@ -43,7 +43,7 @@ jobs:
       - ci
     strategy:
       matrix:
-        language: ['', 'en']
+        language: ["", "en"]
     steps:
       - name: Docker meta
         id: meta
