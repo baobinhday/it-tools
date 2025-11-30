@@ -949,7 +949,8 @@ tools:
       output-label-json-string-conversion-of-your-input: 您输入的JSON字符串转换结果
   ulid-generator:
     title: ULID生成器
-    description: 生成随机的通用唯一可排序标识符（Universally Unique Lexicographically Sortable
+    description:
+      生成随机的通用唯一可排序标识符（Universally Unique Lexicographically Sortable
       Identifier, ULID）。
     texts:
       label-raw: 原始
@@ -1485,7 +1486,8 @@ tools:
       title-large-text: 大文本
       title-apca: 亚太计算机协会
       label-apca-constrast: APCA对比度：
-      tag-text-that-is-14pt-18-67px-and-bold-or-any-text-bigger-than-18pt-24px-is-defined-as-large-scale-text: |
+      tag-text-that-is-14pt-18-67px-and-bold-or-any-text-bigger-than-18pt-24px-is-defined-as-large-scale-text:
+        |
         文本大小为14pt（18.67px）且加粗，或任何大于18pt（24px）的文本，均被视为大尺寸文本。
   color-wheel:
     title: 色轮
@@ -2895,7 +2897,8 @@ tools:
       label-country-name: 国家名称：
       label-continent-name: 大洲名称：
       tag-refresh: 刷新
-    externalAccess: 该工具使用 https://www.ipify.org/ 的 API 获取 IPv4/6 地址，并从
+    externalAccess:
+      该工具使用 https://www.ipify.org/ 的 API 获取 IPv4/6 地址，并从
       https://cdn.jsdelivr.net/npm/{'@'}iplookup/country-extra/ 下载 IP 信息数据。
   nano-memo:
     title: Nano备忘单
@@ -3505,7 +3508,7 @@ tools:
       tag-category: 类别
       tag-html: HTML
       tag-name: 名称
-      tag-gt-more-info: 关于这个角色的更多信息
+      tag-gt-more-info: "关于这个角色的更多信息"
   url-cleaner:
     title: URL清理器
     description: |
@@ -3548,7 +3551,8 @@ tools:
       label-suffix: 后缀
       placeholder-suffix-search: 后缀搜索
       label-searchable-url: 可搜索URL：
-      tag-url-with-text-fragments-allows-to-make-link-to-content-that-has-no-anchor-or-id: |
+      tag-url-with-text-fragments-allows-to-make-link-to-content-that-has-no-anchor-or-id:
+        |
         带文本片段的URL允许链接到无锚点或{'@'}id的内容。
       tag-see-mdn-for-more-info: 了解更多信息请访问MDN
       tag-test-searchable-url: 测试可搜索URL
@@ -3567,12 +3571,14 @@ tools:
       placeholder-put-your-utm-source-here: 在此输入UTM来源...
       label-utm-medium-identifies-what-type-of-link-was-used: UTM媒介（标识使用的链接类型）
       placeholder-put-your-utm-medium-here: 在此输入UTM媒介...
-      label-utm-campaign-identifies-a-specific-product-promotion-or-strategic-campaign: |
+      label-utm-campaign-identifies-a-specific-product-promotion-or-strategic-campaign:
+        |
         UTM活动（标识特定产品推广或战略活动）
       placeholder-put-your-utm-campaign-here: 在此输入UTM活动...
       label-utm-content-identifies-search-terms: UTM内容（标识搜索词）
       placeholder-put-your-utm-content-here: 在此输入UTM内容...
-      label-utm-term-identifies-what-specifically-was-clicked-to-bring-the-user-to-the-site: |
+      label-utm-term-identifies-what-specifically-was-clicked-to-bring-the-user-to-the-site:
+        |
         UTM关键词（标识具体点击内容以引导用户到网站）
       placeholder-put-your-utm-term-here: 在此输入UTM关键词...
       tag-for-more-info-about-utm-see: 了解更多UTM信息请访问
@@ -4597,8 +4603,7 @@ tools:
       tag-tcpdump-is-a-utility-commonly-installed-available-to-many-linux-distributions-to-quickly-gather-a-network-trace-packet-capture-in-short-it-s-the-wireshark-of-linux-to-gathering-packet-captures-tcpdump-is-very-versatile-with-many-switches-to-granularly-capture-what-you-need-to-dubug-network-traffic-with-options-to-output-results-via-console-file-or-wireshark-pcap:
         tcpdump是许多Linux发行版中常用的实用工具，可快速收集网络跟踪/数据包捕获。简言之，它是Linux版的Wireshark，用于数据包捕获。tcpdump功能多样，可通过多种开关精细捕获所需内容，并支持通过控制台、文件或Wireshark
         pcap输出结果。
-      tag-this-utility-is-to-help-generate-a-tcpdump-command-using-some-of-the-more-common-switches-filters-offered-by-the-tcpdump-this-utility-is-not-encompassing-of-all-options-tcpdump-offers-a-complete-list-of-options-can-be-found-via-its-manual-nbsp:
-        此工具旨在帮助使用tcpdump提供的一些常用开关/过滤器生成tcpdump命令。此工具未涵盖所有选项，tcpdump的完整选项列表可通过其手册查看：&nbsp;
+      tag-this-utility-is-to-help-generate-a-tcpdump-command-using-some-of-the-more-common-switches-filters-offered-by-the-tcpdump-this-utility-is-not-encompassing-of-all-options-tcpdump-offers-a-complete-list-of-options-can-be-found-via-its-manual-nbsp: 此工具旨在帮助使用tcpdump提供的一些常用开关/过滤器生成tcpdump命令。此工具未涵盖所有选项，tcpdump的完整选项列表可通过其手册查看：&nbsp;
       tag-https-www-tcpdump-org-manpages-tcpdump-1-html: https://www.tcpdump.org/manpages/tcpdump.1.html
       tag-note: 注意：
       tag-nbsp-host-source-host-and-destination-host-can-take-multiple-entries-separate-your-entries-with-a-comma-space-or-semicolon: "&nbsp;主机、源主机和目标主机可接受多个条目，用逗号、空格或分号分隔。"
@@ -4685,7 +4690,8 @@ tools:
       input-placeholder-paste-your-raw-html-here: 在此粘贴原始HTML...
       output-label-text-from-your-html: 您的HTML中的文本
     title: 从HTML提取文本
-    description: '在左侧输入框中粘贴HTML，即可立即获取文本。有时需要从HTML页面中提取纯文本，但CSS属性（如user-select:
+    description:
+      '在左侧输入框中粘贴HTML，即可立即获取文本。有时需要从HTML页面中提取纯文本，但CSS属性（如user-select:
       none;）可能阻止文本选择。通常的解决方法是使用开发者工具（F12）选择"复制→外部HTML"。此工具通过直接从复制的HTML中提取"innerText"简化了此过程。'
   otp-code-generator-and-validator:
     texts:
@@ -5014,8 +5020,7 @@ tools:
         work-on-the-task-during-that-time: 在此期间处理任务。
         decide-on-a-task-and-set-the-timer-25-minutes-is-common: 确定任务并设置计时器（通常25分钟）。
         five-steps-of-the-pomodoro-technique: 番茄工作法的五个步骤
-        the-pomodoro-technique-is-a-time-management-method-developed-by-francesco-cirillo-in-the-1980s-it-uses-a-timer-to-break-work-into-intervals-typically-25-minutes-in-length-separated-by-short-breaks-each-interval-is-known-as-a-pomodoro-from-the-italian-word-for-tomato-after-the-tomato-shaped-kitchen-timer-cirillo-used-as-a-university-student:
-          番茄工作法是由弗朗切斯科·西里洛于20世纪80年代开发的时间管理方法。它使用计时器将工作分解为间隔（通常25分钟），间隔之间有短暂休息。每个间隔称为一个“番茄钟”，名称源自意大利语中的“番茄”（因西里洛大学时期使用的厨房计时器形状类似番茄）。
+        the-pomodoro-technique-is-a-time-management-method-developed-by-francesco-cirillo-in-the-1980s-it-uses-a-timer-to-break-work-into-intervals-typically-25-minutes-in-length-separated-by-short-breaks-each-interval-is-known-as-a-pomodoro-from-the-italian-word-for-tomato-after-the-tomato-shaped-kitchen-timer-cirillo-used-as-a-university-student: 番茄工作法是由弗朗切斯科·西里洛于20世纪80年代开发的时间管理方法。它使用计时器将工作分解为间隔（通常25分钟），间隔之间有短暂休息。每个间隔称为一个“番茄钟”，名称源自意大利语中的“番茄”（因西里洛大学时期使用的厨房计时器形状类似番茄）。
         the-pomodoro-technique: 番茄工作法
     Home:
       text:
@@ -5931,7 +5936,8 @@ tools:
       tag-digits-0-no-grouping: 数字（0=无分组）
       tag-group-of-digits-0-no-rows: 数字组（0=无行）
       tag-instructions: 说明
-      tag-define-you-struct-definition-in-json-format-keys-struct-member-names-value-type: |
+      tag-define-you-struct-definition-in-json-format-keys-struct-member-names-value-type:
+        |
         以JSON格式定义结构：键=结构成员名称；值=类型
       tag-can-prefix-integer-with-0x-or-0b-to-display-as-hex-and-binary: |
         整数前可加0x或0b以显示为十六进制和二进制
@@ -5943,7 +5949,8 @@ tools:
         unexpected-non-array-key-value: 意外非数组"{0}"="{1}"
         bad-buffer-length-reading-key-obj-key-at-offset-offset: |
           缓冲区长度错误，读取{0}({1})于偏移量{2}
-        cannot-decode-a-struct-with-array-key-key-must-be-expressed-as-string-with-fixed-length: |
+        cannot-decode-a-struct-with-array-key-key-must-be-expressed-as-string-with-fixed-length:
+          |
           无法解码包含数组的结构（键={0}）。必须表示为固定长度的字符串
         unsupported-unsized-array-typename: 不支持无界数组：{0}
   floating-point-number-converter:
@@ -5963,7 +5970,8 @@ tools:
       label-error-due-to-conversion: 转换错误
       placeholder-error-due-to-conversion: 转换错误
       title-binary-to-decimal: 二进制转十进制
-      placeholder-put-your-binary-number-here-ex-01000010001010011010111000010100: |
+      placeholder-put-your-binary-number-here-ex-01000010001010011010111000010100:
+        |
         在此输入二进制数（示例：01000010001010011010111000010100）
       label-decimal-precision: 十进制精度
       placeholder-choose-the-decimal-precision-digits-after-the-decimal-point: |
@@ -6070,9 +6078,11 @@ tools:
       label-parsing-error: 解析错误
       label-file: 文件
       label-content: 内容
-      title-drag-and-drop-a-certificate-file-here-or-click-to-select-a-certificate-file: |
+      title-drag-and-drop-a-certificate-file-here-or-click-to-select-a-certificate-file:
+        |
         拖放证书文件至此或点击选择证书文件
-      label-paste-your-public-key-private-key-signature-fingerprint-certificate: |
+      label-paste-your-public-key-private-key-signature-fingerprint-certificate:
+        |
         粘贴您的公钥/私钥/签名/指纹/证书：
       placeholder-your-public-key-private-key-signature-fingerprint-certificate: 您的公钥/私钥/签名/指纹/证书...
       label-passphrase-for-encrypted-keys: 加密密钥的密码：
@@ -6157,41 +6167,52 @@ tools:
       text:
         the-client-needs-to-authenticate-to-gain-network-access: 客户端需要认证以获取网络访问权限
         network-authentication-required: 需要网络认证
-        further-extensions-to-the-request-are-required-for-the-server-to-fulfill-it: |
+        further-extensions-to-the-request-are-required-for-the-server-to-fulfill-it:
+          |
           服务器需要请求的进一步扩展才能完成处理
         not-extended: 未扩展
         the-server-detected-an-infinite-loop-while-processing-the-request: |
           服务器在处理请求时检测到无限循环
         loop-detected: 检测到循环
-        the-server-is-unable-to-store-the-representation-needed-to-complete-the-request: |
+        the-server-is-unable-to-store-the-representation-needed-to-complete-the-request:
+          |
           服务器无法存储完成请求所需的表示
         insufficient-storage: 存储不足
-        transparent-content-negotiation-for-the-request-results-in-a-circular-reference: |
+        transparent-content-negotiation-for-the-request-results-in-a-circular-reference:
+          |
           请求的透明内容协商导致循环引用
         variant-also-negotiates: 变体也协商
-        the-server-does-not-support-the-http-protocol-version-used-in-the-request: |
+        the-server-does-not-support-the-http-protocol-version-used-in-the-request:
+          |
           服务器不支持请求中使用的HTTP协议版本
         http-version-not-supported: 不支持HTTP版本
-        the-server-was-acting-as-a-gateway-or-proxy-and-did-not-receive-a-timely-response-from-the-upstream-server: |
+        the-server-was-acting-as-a-gateway-or-proxy-and-did-not-receive-a-timely-response-from-the-upstream-server:
+          |
           服务器作为网关或代理，但未及时收到上游服务器的响应
         gateway-timeout: 网关超时
-        the-server-is-currently-unavailable-because-it-is-overloaded-or-down-for-maintenance: |
+        the-server-is-currently-unavailable-because-it-is-overloaded-or-down-for-maintenance:
+          |
           服务器当前不可用（因过载或维护中）
         service-unavailable: 服务不可用
-        the-server-was-acting-as-a-gateway-or-proxy-and-received-an-invalid-response-from-the-upstream-server: |
+        the-server-was-acting-as-a-gateway-or-proxy-and-received-an-invalid-response-from-the-upstream-server:
+          |
           服务器作为网关或代理，但收到上游服务器的无效响应
         bad-gateway: 错误网关
-        the-server-either-does-not-recognize-the-request-method-or-it-lacks-the-ability-to-fulfill-the-request: |
+        the-server-either-does-not-recognize-the-request-method-or-it-lacks-the-ability-to-fulfill-the-request:
+          |
           服务器不识别请求方法或缺乏完成请求的能力
         not-implemented: 未实现
-        a-generic-error-message-given-when-an-unexpected-condition-was-encountered-and-no-more-specific-message-is-suitable: |
+        a-generic-error-message-given-when-an-unexpected-condition-was-encountered-and-no-more-specific-message-is-suitable:
+          |
           当遇到意外情况且无更具体的消息时提供的通用错误消息
         internal-server-error: 内部服务器错误
         5xx-server-error: 5xx服务器错误
-        a-server-operator-has-received-a-legal-demand-to-deny-access-to-a-resource-or-to-a-set-of-resources-that-includes-the-requested-resource: |
+        a-server-operator-has-received-a-legal-demand-to-deny-access-to-a-resource-or-to-a-set-of-resources-that-includes-the-requested-resource:
+          |
           服务器运营商收到法律要求，拒绝访问某个资源或包含请求资源的资源集
         unavailable-for-legal-reasons: 因法律原因不可用
-        the-server-is-unwilling-to-process-the-request-because-either-an-individual-header-field-or-all-the-header-fields-collectively-are-too-large: |
+        the-server-is-unwilling-to-process-the-request-because-either-an-individual-header-field-or-all-the-header-fields-collectively-are-too-large:
+          |
           服务器不愿处理请求，因为单个头部字段或所有头部字段整体过大
         request-header-fields-too-large: 请求头部字段过大
         the-user-has-sent-too-many-requests-in-a-given-amount-of-time: 用户在给定时间内发送了过多请求
@@ -6200,122 +6221,155 @@ tools:
         precondition-required: 需要前置条件
         the-client-should-switch-to-a-different-protocol-such-as-tls-1-0: 客户端应切换到其他协议（如TLS/1.0）
         upgrade-required: 需要升级
-        indicates-that-the-server-is-unwilling-to-risk-processing-a-request-that-might-be-replayed: |
+        indicates-that-the-server-is-unwilling-to-risk-processing-a-request-that-might-be-replayed:
+          |
           表示服务器不愿冒险处理可能被重放的请求
         too-early: 过早
         the-request-failed-due-to-failure-of-a-previous-request: 请求因前一请求失败而失败
         failed-dependency: 依赖失败
         the-resource-that-is-being-accessed-is-locked: 正在访问的资源已锁定
         locked: 已锁定
-        the-request-was-well-formed-but-was-unable-to-be-followed-due-to-semantic-errors: |
+        the-request-was-well-formed-but-was-unable-to-be-followed-due-to-semantic-errors:
+          |
           请求格式正确，但因语义错误无法处理
         unprocessable-entity: 不可处理的实体
-        the-request-was-directed-at-a-server-that-is-not-able-to-produce-a-response: |
+        the-request-was-directed-at-a-server-that-is-not-able-to-produce-a-response:
+          |
           请求发送到无法生成响应的服务器
         misdirected-request: 错误请求
         the-server-refuses-the-attempt-to-brew-coffee-with-a-teapot: 服务器拒绝用茶壶煮咖啡的尝试
         i-m-a-teapot: 我是茶壶
-        the-server-cannot-meet-the-requirements-of-the-expect-request-header-field: |
+        the-server-cannot-meet-the-requirements-of-the-expect-request-header-field:
+          |
           服务器无法满足Expect请求头部字段的要求
         expectation-failed: 期望失败
-        the-client-has-asked-for-a-portion-of-the-file-but-the-server-cannot-supply-that-portion: |
+        the-client-has-asked-for-a-portion-of-the-file-but-the-server-cannot-supply-that-portion:
+          |
           客户端请求文件的一部分，但服务器无法提供该部分
         range-not-satisfiable: 范围不可满足
-        the-request-entity-has-a-media-type-which-the-server-or-resource-does-not-support: |
+        the-request-entity-has-a-media-type-which-the-server-or-resource-does-not-support:
+          |
           请求实体包含服务器或资源不支持的媒体类型
         unsupported-media-type: 不支持的媒体类型
         the-uri-provided-was-too-long-for-the-server-to-process: 提供的URI过长，服务器无法处理
         uri-too-long: URI过长
         the-request-is-larger-than-the-server-is-willing-or-able-to-process: 请求大于服务器愿意或能够处理的大小
         payload-too-large: 有效载荷过大
-        the-server-does-not-meet-one-of-the-preconditions-that-the-requester-put-on-the-request: |
+        the-server-does-not-meet-one-of-the-preconditions-that-the-requester-put-on-the-request:
+          |
           服务器未满足请求者设置的任一前置条件
         precondition-failed: 前置条件失败
-        the-request-did-not-specify-the-length-of-its-content-which-is-required-by-the-requested-resource: |
+        the-request-did-not-specify-the-length-of-its-content-which-is-required-by-the-requested-resource:
+          |
           请求未指定其内容的长度（请求资源需要）
         length-required: 需要长度
-        indicates-that-the-resource-requested-is-no-longer-available-and-will-not-be-available-again: |
+        indicates-that-the-resource-requested-is-no-longer-available-and-will-not-be-available-again:
+          |
           表示请求的资源不再可用且不会再提供
         gone: 已删除
-        indicates-that-the-request-could-not-be-processed-because-of-conflict-in-the-request-such-as-an-edit-conflict: |
+        indicates-that-the-request-could-not-be-processed-because-of-conflict-in-the-request-such-as-an-edit-conflict:
+          |
           表示请求因冲突（如编辑冲突）无法处理
         conflict: 冲突
         the-server-timed-out-waiting-for-the-request: 服务器等待请求超时
         request-timeout: 请求超时
         the-client-must-first-authenticate-itself-with-the-proxy: 客户端必须首先向代理认证
         proxy-authentication-required: 需要代理认证
-        the-requested-resource-is-capable-of-generating-only-content-not-acceptable-according-to-the-accept-headers-sent-in-the-request: |
+        the-requested-resource-is-capable-of-generating-only-content-not-acceptable-according-to-the-accept-headers-sent-in-the-request:
+          |
           请求的资源仅能生成请求中Accept头部不接受的内容
         not-acceptable: 不可接受
         a-request-method-is-not-supported-for-the-requested-resource: 请求方法不支持请求的资源
         method-not-allowed: 方法不允许
-        the-requested-resource-could-not-be-found-but-may-be-available-in-the-future: |
+        the-requested-resource-could-not-be-found-but-may-be-available-in-the-future:
+          |
           请求的资源未找到，但未来可能可用
-        the-request-was-valid-but-the-server-is-refusing-action-the-user-might-not-have-the-necessary-permissions-for-a-resource: |
+        the-request-was-valid-but-the-server-is-refusing-action-the-user-might-not-have-the-necessary-permissions-for-a-resource:
+          |
           请求有效，但服务器拒绝操作（用户可能无资源权限）
         forbidden: 禁止
-        reserved-for-future-use-the-original-intention-was-that-this-code-might-be-used-as-part-of-some-form-of-digital-cash-or-micropayment-scheme: |
+        reserved-for-future-use-the-original-intention-was-that-this-code-might-be-used-as-part-of-some-form-of-digital-cash-or-micropayment-scheme:
+          |
           保留供未来使用（原意图是作为数字现金或小额支付方案的一部分）
         payment-required: 需要支付
-        similar-to-403-forbidden-but-specifically-for-use-when-authentication-is-required-and-has-failed-or-has-not-yet-been-provided: |
+        similar-to-403-forbidden-but-specifically-for-use-when-authentication-is-required-and-has-failed-or-has-not-yet-been-provided:
+          |
           类似403禁止，但专门用于需要认证但失败或未提供的情况
         unauthorized: 未授权
-        the-server-cannot-or-will-not-process-the-request-due-to-an-apparent-client-error: |
+        the-server-cannot-or-will-not-process-the-request-due-to-an-apparent-client-error:
+          |
           服务器无法或不愿处理请求（因明显的客户端错误）
         bad-request: 错误请求
         4xx-client-error: 4xx客户端错误
-        the-request-and-all-future-requests-should-be-repeated-using-another-uri: |
+        the-request-and-all-future-requests-should-be-repeated-using-another-uri:
+          |
           请求及所有未来请求应使用其他URI重试
         permanent-redirect: 永久重定向
-        in-this-case-the-request-should-be-repeated-with-another-uri-however-future-requests-should-still-use-the-original-uri: |
+        in-this-case-the-request-should-be-repeated-with-another-uri-however-future-requests-should-still-use-the-original-uri:
+          |
           在此情况下，请求应使用其他URI重试，但未来请求仍应使用原始URI
         temporary-redirect: 临时重定向
-        no-longer-used-originally-meant-subsequent-requests-should-use-the-specified-proxy: |
+        no-longer-used-originally-meant-subsequent-requests-should-use-the-specified-proxy:
+          |
           不再使用（原意是后续请求应使用指定的代理）
         switch-proxy: 切换代理
-        the-requested-resource-is-available-only-through-a-proxy-the-address-for-which-is-provided-in-the-response: |
+        the-requested-resource-is-available-only-through-a-proxy-the-address-for-which-is-provided-in-the-response:
+          |
           请求的资源仅通过代理可用（地址在响应中提供）
         use-proxy: 使用代理
-        indicates-that-the-resource-has-not-been-modified-since-the-version-specified-by-the-request-headers: |
+        indicates-that-the-resource-has-not-been-modified-since-the-version-specified-by-the-request-headers:
+          |
           表示资源自请求头部指定的版本以来未修改
         not-modified: 未修改
-        the-response-to-the-request-can-be-found-under-another-uri-using-a-get-method: |
+        the-response-to-the-request-can-be-found-under-another-uri-using-a-get-method:
+          |
           请求的响应可通过其他URI的GET方法获取
         see-other: 参见其他
-        redirect-to-another-url-this-is-an-example-of-industry-practice-contradicting-the-standard: |
+        redirect-to-another-url-this-is-an-example-of-industry-practice-contradicting-the-standard:
+          |
           重定向到其他URL（这是行业实践与标准矛盾的示例）
         found: 找到
         this-and-all-future-requests-should-be-directed-to-the-given-uri: |
           此请求及所有未来请求应指向给定URI
         moved-permanently: 永久移动
-        indicates-multiple-options-for-the-resource-that-the-client-may-follow: |
+        indicates-multiple-options-for-the-resource-that-the-client-may-follow:
+          |
           表示客户端可跟随的资源有多个选项
         multiple-choices: 多个选择
         3xx-redirection: 3xx重定向
-        the-server-has-fulfilled-a-request-for-the-resource-and-the-response-is-a-representation-of-the-result: |
+        the-server-has-fulfilled-a-request-for-the-resource-and-the-response-is-a-representation-of-the-result:
+          |
           服务器已满足资源请求，响应是结果的表示
         im-used: 即时通讯使用
-        the-members-of-a-dav-binding-have-already-been-enumerated-in-a-preceding-part-of-the-multistatus-response: |
+        the-members-of-a-dav-binding-have-already-been-enumerated-in-a-preceding-part-of-the-multistatus-response:
+          |
           DAV绑定的成员已在多状态响应的前一部分枚举
         already-reported: 已报告
-        the-message-body-that-follows-is-an-xml-message-and-can-contain-a-number-of-separate-response-codes: |
+        the-message-body-that-follows-is-an-xml-message-and-can-contain-a-number-of-separate-response-codes:
+          |
           后续的消息体是XML消息，可包含多个独立的响应代码
-        the-server-is-delivering-only-part-of-the-resource-due-to-a-range-header-sent-by-the-client: |
+        the-server-is-delivering-only-part-of-the-resource-due-to-a-range-header-sent-by-the-client:
+          |
           服务器仅交付资源的一部分（因客户端发送的范围头部）
         partial-content: 部分内容
-        the-server-indicates-to-reinitialize-the-document-view-which-sent-this-request: |
+        the-server-indicates-to-reinitialize-the-document-view-which-sent-this-request:
+          |
           服务器指示重新初始化发送此请求的文档视图
         reset-content: 重置内容
-        the-server-successfully-processed-the-request-and-is-not-returning-any-content: |
+        the-server-successfully-processed-the-request-and-is-not-returning-any-content:
+          |
           服务器成功处理请求，未返回任何内容
         no-content: 无内容
-        the-request-is-successful-but-the-content-of-the-original-request-has-been-modified-by-a-transforming-proxy: |
+        the-request-is-successful-but-the-content-of-the-original-request-has-been-modified-by-a-transforming-proxy:
+          |
           请求成功，但原始请求的内容已被转换代理修改
         non-authoritative-information: 非权威信息
-        the-request-has-been-accepted-for-processing-but-the-processing-has-not-been-completed: |
+        the-request-has-been-accepted-for-processing-but-the-processing-has-not-been-completed:
+          |
           请求已接受处理，但处理未完成
         accepted: 已接受
-        the-request-has-been-fulfilled-resulting-in-the-creation-of-a-new-resource: |
+        the-request-has-been-fulfilled-resulting-in-the-creation-of-a-new-resource:
+          |
           请求已满足，创建了新资源
         created: 已创建
         standard-response-for-successful-http-requests: 成功HTTP请求的标准响应
@@ -7199,8 +7253,7 @@ tools:
       tag-mirrors-stripes: 镜子/条纹
       tag-reset: 重置
       tag-see-zpool-openzfs-cheatsheet: 请参阅 Zpool/OpenZFS 备忘单
-      tag-click-on-the-section-titles-to-expand-collapse-and-view-calculated-data-hovering-over-a-table-cell-loads-the-relevant-data-into-the-calculation-values-section-below-you-can-click-table-cells-to-freeze-or-unfreeze-those-values:
-        点击各部分标题即可展开/折叠并查看计算数据。将鼠标悬停在表格单元格上，相关数据会加载到下方的“计算值”部分。您可以点击表格单元格来冻结或解冻这些值。
+      tag-click-on-the-section-titles-to-expand-collapse-and-view-calculated-data-hovering-over-a-table-cell-loads-the-relevant-data-into-the-calculation-values-section-below-you-can-click-table-cells-to-freeze-or-unfreeze-those-values: 点击各部分标题即可展开/折叠并查看计算数据。将鼠标悬停在表格单元格上，相关数据会加载到下方的“计算值”部分。您可以点击表格单元格来冻结或解冻这些值。
       tag-common-layouts: 常见布局
       tag-raw-stripes-mirrors: 原始、条带和镜像
       tag-calculation-values: 计算值
@@ -7710,7 +7763,8 @@ tools:
       failed: 失败的
       no-redirect: 无重定向
       expanded: 扩展
-    externalAccess: 该工具使用 CORS Anywhere 实例（默认情况下为 https://cors.outils-libre.org）发送
+    externalAccess:
+      该工具使用 CORS Anywhere 实例（默认情况下为 https://cors.outils-libre.org）发送
       HEAD HTTP 请求（不下载数据）以获取 HTTP 标头和重定向信息。
   copy:
     text:
@@ -7780,7 +7834,8 @@ tools:
       tag-generate-sql: 生成 SQL
   gitattributes-generator:
     title: Gitattributes 生成器
-    description: 从 https://github.com/alexkaratarakis/gitattributes 的通用配置生成
+    description:
+      从 https://github.com/alexkaratarakis/gitattributes 的通用配置生成
       .gitattributes 文件
     texts:
       label-gitattributes-templates: Gitattributes 模板：
@@ -8471,7 +8526,8 @@ tools:
       invalid-blueprint-yaml: 无效的蓝图 YAML
   fitness-computer:
     title: 健身电脑
-    description: 计算基础代谢率 (BMR)、每日总能量消耗 (TDEE / 卡路里)、身体质量指数 (BMI)、理想体重 (Ideal
+    description:
+      计算基础代谢率 (BMR)、每日总能量消耗 (TDEE / 卡路里)、身体质量指数 (BMI)、理想体重 (Ideal
       Weight)、体脂率 (Bool Fat)、最大心率 (Max HR)：这些是评估整体健康状况和生理健康的关键指标。
     externalAccess: 无效的
     texts:
@@ -9319,7 +9375,8 @@ tools:
       tag-don-t-match-trailing-slashes-with-single-stars: 不要将尾部的斜杠与单个星号匹配。
   powershell-memo:
     title: PowerShell 速查表
-    description: PowerShell 是一种功能强大的脚本语言和命令行 shell，专为系统管理和自动化而设计。它提供了丰富的 cmdlet
+    description:
+      PowerShell 是一种功能强大的脚本语言和命令行 shell，专为系统管理和自动化而设计。它提供了丰富的 cmdlet
       和功能，使用户能够高效地管理和自动化 Windows 系统上的任务。
     externalAccess: 无效的
   running-pace-calculator:
