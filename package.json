@@ -144,6 +144,7 @@
     "citation-formatter": "^1.0.1",
     "codemirror": "^6.0.2",
     "colord": "^2.9.3",
+    "colorizr": "^3.0.8",
     "composerize": "^1.7.6",
     "composeverter": "^1.7.5",
     "convert": "^7.0.0",

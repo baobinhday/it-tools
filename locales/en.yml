@@ -5539,6 +5539,7 @@ tools:
       label-color-picker: color picker
       label-hex: hex
       label-rgb: rgb
+      label-rgba: rgba
       label-hsl: hsl
       label-hwb: hwb
       label-lch: lch
@@ -5546,6 +5547,7 @@ tools:
       label-lab: lab
       label-xyz: xyz
       label-name: name
+      label-oklch: oklch
       title-transformations: Transformations
       label-saturation: Saturation
       label-brightness: Brightness
