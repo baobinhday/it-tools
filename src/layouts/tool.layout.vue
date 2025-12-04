@@ -180,7 +180,7 @@ const linkTheme = useTheme();
     }
 
     .separator {
-      width: '100%';
+      width: 100%;
       height: 2px;
       background: rgb(161, 161, 161);
       opacity: 0.2;
