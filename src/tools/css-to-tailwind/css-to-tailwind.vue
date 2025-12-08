@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 import { type ConvertedClass, convertCssToTailwind } from './css-to-tailwind.service';
 import InputCopyable from '@/components/InputCopyable.vue';
 
@@ -46,9 +46,9 @@ cssInput.value = `.my-button {
 }`;
 
 // Watch for changes to both cssInput and remInPx, and convert when either changes
-watch([cssInput, remInPx], () => {
-  convertCss();
-}, { immediate: true });
+// watch([cssInput, remInPx], () => {
+//   convertCss();
+// }, { immediate: true });
 </script>
 
 <template>
